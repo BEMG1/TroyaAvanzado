@@ -1,0 +1,253 @@
+ *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    } 
+body{
+    
+    background: url(../../TroyaNW/img/Fondito.jpg) ;
+	opacity:1;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	height: 100vh;
+
+}
+header{
+    width: 100%;
+    height: 10%;
+    background: #ADD8E6 ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color:white;
+    font-size: 18px;
+    z-index: 300;
+}
+
+.icono_menu{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(10px);
+
+}
+
+td 
+{ 
+    padding: 13px;
+    transition: all 0.2s;
+	font-size: 14px;
+	color: rgb(240, 243, 235);
+    font-size: 21px;
+}
+.icono_menu i{
+
+    font-size: 20px;
+    cursor:pointer;
+    position: absolute;
+}
+
+.menu_fuera{
+    width: 300px;
+    height: 100%;
+    background: #ADD8E6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color:white;
+    font-size: 18px;
+    z-index: 300;
+    list-style: none;
+    padding: 50px;
+    margin: 0;
+    text-align: left;
+}
+.iniciales {
+
+    Color: #696969;
+    font-size: 50px;
+    font-weight: bold; /* Puede ser normal, bold, bolder, lighter, etc. */
+    font-style: italic; /* Puede ser normal o italic */
+    text-align: center;
+    
+}
+
+.menu_fuera nav ul li a {
+    text-decoration: none;
+    color: #000; /* Puedes cambiar el color del texto según tu diseño */
+}
+.logo_pagina{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo_pagina i{
+
+    margin-right: 20px; 
+}
+
+.opcion_menu{
+    padding: 20px 30px;
+    position: absolute;
+    top: 80px;
+}
+.img
+{
+	width:150px;
+	height:150px;
+	float:center;
+	position:relative;
+	margin-left:2%;
+    top: 0;
+    left: 10;
+}
+
+.opcion_menu a{
+
+    color: white;
+    cursor: default;
+    display: block;
+    position: relative;
+    transition: color 300ms ;
+
+}
+
+.opcion_menu a:hover {
+    color:rgb(230, 163, 163);
+}
+
+.opcion_menu .option{
+
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.opcion_menu .option i{
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.opcion_menu .option li{
+
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.opcion_menu .option h4{
+
+    font-weight: 300;
+    cursor: pointer;
+}
+
+a .seleccion{
+    color: bisque;
+}
+
+.seleccion:before{
+
+    content: '';
+    width: 3px;
+    height: 80%;
+    background: white;
+    position: absolute;
+    top: 10%;
+    left: -30px;
+
+
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    }
+    .cerrar_sesion{
+
+        width: 150px;
+        height: 30px;
+        background: transparent;
+        position: relative;
+        bottom: -100px;
+        border:2px solid transparent;
+        color:#ffffff;
+        background-color:transparent;
+    }     
+    .cerrar_sesion1{
+
+        width: 150px;
+        height: 30px;
+        background: transparent;
+        position: relative;
+        bottom: -350px;
+        border:2px solid transparent;
+        color:#ffffff;
+        background-color:transparent;
+    } 
+    .cerrar_sesion2{
+
+        width: 150px;
+        height: 30px;
+        background: transparent;
+        position: relative;
+        bottom: -490px;
+        border:2px solid transparent;
+        color:#ffffff;
+        background-color:transparent;
+    }         
+    li{
+    list-style-type:none;
+    position:relative;
+    width:120px;
+    }
+                
+    li a{
+    text-decoration: none;
+    display: block;
+    padding:5px 10px;
+    width:120px;
+    height:30px;
+    border:2px solid transparent;
+    color:#ffffff;
+    background-color:transparent;
+    border-radius: 2rem;
+    }
+
+    .Pedidos_productos{
+        text-decoration:none;
+        display:block;
+        padding:5px 10px;
+        width:180px;
+        height:30px;
+        border:2px solid transparent;
+        color:#ffffff;
+        background-color:transparent;
+        border-radius: 2rem;
+        }
+            
+            
+    li a:hover{
+    color:#000;
+    background-color:#fff;
+                
+    }
+    
+    nav li ul{
+        display:none;
+        position:absolute;
+        top:0px;
+        left:120px;
+    }
+            
+    nav li:hover ul{display:block;}
