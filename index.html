@@ -38,6 +38,23 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="login.js"></script>
 <script>
+
+function login() {
+    var user = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    var userminusculas = user.toLowerCase();
+    console.log(userminusculas);
+    console.log(password);
+
+    if (userminusculas === "usuario" && password === "1234") {
+        window.location.href = "./viewAdmin.html";
+    } else if (userminusculas === "" || password === "" ) {
+        alert("Campos vacios");
+    } else {
+        alert("Credenciales incorrectas");
+    }
+}
+
     // Deshabilitar el botón de retroceso
     history.pushState(null, null, location.href);
     window.onpopstate = function(event) {
